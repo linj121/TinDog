@@ -8,7 +8,7 @@
 }
 
 h1 {
-    /*rem :realative to root */
+    /*rem :relative to root */
     font-size: 3.5rem;
     font-weight: 800;
     line-height: 1.5;
@@ -87,13 +87,13 @@ p {
     margin: auto;
 }
 
-.fa-solid {
+#features .fa-solid {
     color: #ef8172;
     font-size: 350%;
     margin-bottom: 20px;
 }
 
-.fa-solid:hover {
+#features .fa-solid:hover {
     color: #ff4c68;
 }
 
@@ -150,3 +150,51 @@ p {
     padding: 3% 2%;
 }
 
+/* call to action */
+#cta {
+    background-color: #ff4c68;
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+#cta h3 {
+    font-family: 'Montserrat-Black', sans-serif;
+    font-size: 3.5rem;
+    color: #ffffff;
+    padding: 40px 0 40px 0;
+    width: 65%;
+    margin: auto;
+
+}
+
+#cta button {
+    margin: 0 15px 0;
+}
+
+/* footer  */
+#footer {
+    text-align: center;
+    padding: 100px 0 100px;
+    background-color: #ffffff;
+}
+
+#footer i {
+    margin: 0 5px 0;
+}
+
+#footer p {
+    margin-top: 15px;
+}
+
+/* media query for title image */
+@media (max-width:1028px) {
+
+    #title {
+        text-align: center;
+    }
+
+    .title-image {
+        position: static;
+        transform: rotate(0);
+    }
+}
